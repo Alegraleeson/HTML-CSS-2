@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-container{
+    display: flex;
+    border: black solid 5px;
+    height: 160px;
+    width: 100%;
+    margin: 10px;
+    align-items: flex-end;
+}
+
+.purple-rectangle{
+    background-color: blueviolet;
+    height: 100px;
+    width: 25px;
+    margin: 10px;
+    padding-right: 10px;
+}
+
+.green-rectangle{
+    background-color: green;
+    height: 140px;
+    width: 300px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.circle{
+    background-color: skyblue;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.post-it-container{
+    display: flex;
+    border: black dotted 4px;
+    height: 225px;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+}
+
+.post-it{
+    background-color: lightgoldenrodyellow;
+    height: 150px;
+    width: 100%;
+    margin: 0px 50px 0px 50px;
+    filter: drop-shadow(8px 8px 2px black)
+    
+}
+
+.card{
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    border: gray 1px solid;
+    filter: drop-shadow(5px 5px 2px grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color:rgb(72, 72, 72);
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: bold;
+    margin: 0px;
+    letter-spacing: 3px;
+    
+}
