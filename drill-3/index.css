@@ -43,4 +43,25 @@
     background-color: yellow;
     height: 150px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.question{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    height:35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mark{
+    color: white;
+    font-size: larger;
+
 }
